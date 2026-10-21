@@ -25,3 +25,13 @@ for a Microsoft 365 Enterprise Administration lab.
 - MFA for user accounts
 - Documented access changes
 - Verification after administrative tasks
+
+Trishia Maluleka (Managing Director)
+├── Khumo Mogami (IT)
+│   └── Zanele Mthembu
+├── Sipho Nkosi (Sales)
+│   └── Lerato Dlamini
+├── Naledi Khumalo (HR)
+├── Pieter van der Merwe (Finance)
+│   └── Ayesha Naidoo
+└── Themba Ndlovu (Operations)
