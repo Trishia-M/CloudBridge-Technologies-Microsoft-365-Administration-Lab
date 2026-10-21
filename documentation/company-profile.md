@@ -26,12 +26,24 @@ for a Microsoft 365 Enterprise Administration lab.
 - Documented access changes
 - Verification after administrative tasks
 
-Trishia Maluleka (Managing Director)
-├── Khumo Mogami (IT)
-│   └── Zanele Mthembu
-├── Sipho Nkosi (Sales)
-│   └── Lerato Dlamini
-├── Naledi Khumalo (HR)
-├── Pieter van der Merwe (Finance)
-│   └── Ayesha Naidoo
-└── Themba Ndlovu (Operations)
+```mermaid
+graph TD
+    TM["Trishia Maluleka<br/>Managing Director"]
+    KM["Khumo Mogami<br/>IT Administrator"]
+    SN["Sipho Nkosi<br/>Sales Manager"]
+    NK["Naledi Khumalo<br/>HR Manager"]
+    PM["Pieter van der Merwe<br/>Finance Manager"]
+    TN["Themba Ndlovu<br/>Operations Lead"]
+    ZM["Zanele Mthembu<br/>IT Support Technician"]
+    LD["Lerato Dlamini<br/>Sales Executive"]
+    AN["Ayesha Naidoo<br/>Accountant"]
+
+    TM --> KM
+    TM --> SN
+    TM --> NK
+    TM --> PM
+    TM --> TN
+    KM --> ZM
+    SN --> LD
+    PM --> AN
+```
